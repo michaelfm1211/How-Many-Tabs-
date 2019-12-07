@@ -1,0 +1,26 @@
+{
+    "manifest_version": 2,
+    "name": "How Many Tabs?",
+    "description": "How many tabs do I have open? Quickly find out with How Many Tabs?",
+    "version": "1.0",
+    "permissions": ["activeTab"],
+    "icons": {
+    	"16": "images/16px.png",
+	"32": "images/32px.png",
+	"48": "images/48px.png",
+	"128": "images/128px.png"
+    },
+    "browser_action": {
+        "default_title": "How Many Tabs Do I Have?",
+	"default_icon": {
+		"16": "images/16px.png",
+		"32": "images/32px.png",
+		 "48": "images/48px.png",
+ 		"128": "images/128px.png"
+	}
+    },
+    "permissions": ["activeTab"],
+    "background": {
+        "scripts": ["background.js"]
+    }
+}
