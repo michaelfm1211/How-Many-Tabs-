@@ -5,21 +5,20 @@
     "version": "1.0",
     "permissions": ["activeTab"],
     "icons": {
-    	"16": "images/16px.png",
-	"32": "images/32px.png",
-	"48": "images/48px.png",
-	"128": "images/128px.png"
+        "16": "images/16px.png",
+        "32": "images/32px.png",
+        "48": "images/48px.png",
+        "128": "images/128px.png"
     },
     "browser_action": {
         "default_title": "How Many Tabs Do I Have?",
-	"default_icon": {
-		"16": "images/16px.png",
-		"32": "images/32px.png",
-		 "48": "images/48px.png",
- 		"128": "images/128px.png"
-	}
+        "default_icon": {
+            "16": "images/16px.png",
+            "32": "images/32px.png",
+            "48": "images/48px.png",
+            "128": "images/128px.png"
+        }
     },
-    "permissions": ["activeTab"],
     "background": {
         "scripts": ["background.js"]
     }
